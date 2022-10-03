@@ -1,7 +1,45 @@
 
 body{
-  width: 100vw;
-  height: 100vh;
-  margin:0;
-  font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+}
+.main-menu li{
+  list-style-type: none;
+}
+#navbar{
+  display:flex;
+  position:fixed;
+  top:0;
+}
+.main-menu{
+  display: flex;
+  gap:20px;
+  text-align: center;
+  vertical-align: center;
+}
+.main-section:first-of-type{
+  padding-top:5%;
+}
+header{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+h1{
+  margin: 0;
+}
+@media(prefers-reduced-motion:reduce){
+  *{
+    scroll-behavior:smoth;
+  }
+}
+a, a:hover{
+  color:black;
+  text-decoration: none;
+}
+.div-wrapper{
+  padding: 5%
+  width: 95%;
 }
